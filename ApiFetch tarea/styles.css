@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;  
+    background-color: #D291BC;
+    
+}
+
+th, td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+
+img.circular-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto #957DAD;
+}
+@media screen and (max-width: 600px) {
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    th, td {
+        text-align: center;
+    }
+}
